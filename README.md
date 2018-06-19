@@ -10,6 +10,7 @@ A mini blockchain implementation in C++14
 
 ## build
 On workpath of tinychain:
+
 ```
 $ mkdir build
 $ cmake ..
@@ -18,8 +19,11 @@ $ make
 
 ## run
 On workpath of tinychain:
+
 ```
 $ cd build/bin
+
 $ mkdir -p webroot && cp -f ../../etc/index.html webroot
+
 $ ./tinychain
 ```
